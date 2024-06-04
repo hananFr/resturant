@@ -1,0 +1,6 @@
+.env
+*.pem
+*.key
+*.pub
+/node_modules
+package-lock.json

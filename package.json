@@ -1,0 +1,39 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "Resturant orders managment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Hanan Fruman",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@simonsmith/ejs-mate": "^4.1.0",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.2.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "mongodb-memory-server": "^9.3.0",
+    "nodemon": "^3.1.0",
+    "sinon": "^18.0.0"
+  }
+}
